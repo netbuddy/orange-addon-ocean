@@ -42,7 +42,7 @@ ENTRY_POINTS = {
     # Entry points that marks this package as an orange add-on. If set, addon will
     # be shown in the add-ons manager even if not published on PyPi.
     'orange3.addon': (
-        'echarts = orangecontrib.ocean',
+        'ocean = orangecontrib.ocean',
     ),
     # Entry point used to specify packages containing tutorials accessible
     # from welcome screen. Tutorials are saved Orange Workflows (.ows files).
@@ -56,7 +56,7 @@ ENTRY_POINTS = {
         # Syntax: category name = path.to.package.containing.widgets
         # Widget category specification can be seen in
         #    orangecontrib/example/widgets/__init__.py
-        'Echarts = orangecontrib.ocean.widgets',
+        'Ocean = orangecontrib.ocean.widgets',
     ),
 
     # Register widget help
